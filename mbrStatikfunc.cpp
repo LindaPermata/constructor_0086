@@ -21,4 +21,7 @@ public:
       {
         setID();
       }
-}
+};
+
+int mahasiswa::nim = 100;
+
