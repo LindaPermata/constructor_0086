@@ -39,5 +39,16 @@ Mahasiswa::Mahasiswa(int iNim, string iNama){
 
 int main()
 {
-    
+    Mahasiswa mhs1;
+    Mahasiswa mhs2("86");
+    Mahasiswa mhs3("Linda");
+    Mahasiswa mhs4(86, "Linda");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+
+    return 0;
+
 }
