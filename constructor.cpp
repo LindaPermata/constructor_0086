@@ -26,6 +26,18 @@ public:
         cout << endl;
     }
 };
+
+
 Mahasiswa::Mahasiswa(string iNama){
-    nama = inama;
+    nama = iNama;
+}
+
+Mahasiswa::Mahasiswa(int iNim, string iNama){
+    nim = iNim;
+    nama = iNama;
+};
+
+int main()
+{
+    
 }
