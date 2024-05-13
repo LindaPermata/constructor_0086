@@ -8,12 +8,14 @@ public:
     int id;
     string nama;
 
-    void setId();
+    void setID();
 
     void printAll();
     mahasiswa(string pnama):nama(pnama)
     {
-        setId();
+        setID();
     }
 
 };
+
+int mahasiswa::nim = 20;
